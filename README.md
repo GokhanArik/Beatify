@@ -1,7 +1,4 @@
 Beatify
-======
+=======
 
-Get beats of your favourite songs. 
-
-www.gokhanarik.com
-
+Spotify app to get bpm data for songs.
