@@ -4,6 +4,8 @@ Beatify
 Spotify app to get bpm data for songs.
 
 
+![alt tag](screenshot.png)
+
 Installation
 ============
 
@@ -30,5 +32,6 @@ About
 =====
 
 Developed by Gokhan Arik.
+
 www.gokhanarik.com
 
