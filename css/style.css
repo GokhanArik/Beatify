@@ -1,0 +1,24 @@
+html {
+  overflow: auto;
+  background-color: #ffffff;
+  color:#000000;
+}
+
+#drop-box{
+	background-image: url('/minion.jpg');
+	width: 374px !important ;
+	height: 176px !important ;
+	padding: 10px !important ;
+	background-size: 405px 200px !important ;
+	color:white;
+	display: inline-block;
+}
+
+#info{
+	display: inline-block;
+	margin-left: 100px;
+}
+
+#playlistSection(){
+	display: inline-block;
+}

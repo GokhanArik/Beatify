@@ -1,0 +1,33 @@
+{
+    "AcceptedLinkTypes": [
+        "playlist"
+    ],
+    "AppDescription": {
+        "en": "beatify"
+    },
+    "AppIcon": {
+        "18x18": "",
+        "64x64": "",
+        "128x128": "",
+        "300x300": ""
+    },
+    "AppName": {
+        "en": "Beatify"
+    },
+    "BundleIdentifier": "beatify",
+    "BundleType": "Application",
+    "BundleVersion": "0.0.1",
+    "Dependencies": {
+        "api": "1.5.1",
+        "views": "1.10.0"
+    },
+    "RequiredPermissions": [
+        "https://*",
+        "http://*",
+        "http://developer.echonest.com"
+    ],
+    "SupportedLanguages": [
+        "en"
+    ],
+    "VendorIdentifier": "gokhan.arik"
+}
