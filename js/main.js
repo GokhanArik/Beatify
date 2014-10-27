@@ -88,7 +88,7 @@ require([
             .click(function () {
 
                 $('table[class=\'sp-list-table\']').find('td').filter(function () {
-                    return $(this).index() === 4;
+                    return $(this).index() === 5;
                 }).sortElements(function (a, b) {
 
                         a = $(a).text();
@@ -164,7 +164,7 @@ require([
 
                                         localStorage.setItem( idMap[data.response.songs[0].id], tempo );
 
-                                        var html = "<td class='sp-list-cell sp-list-cell-time' width='100px;' >  "+tempo+"</td>";
+                                        var html = "<td class='sp-list-cell sp-list-cell-time' width='100px;' >  "+ parseFloat(tempo).toFixed(2)+"</td>";
                                         $("tr[data-uri='"+tracks[i].uri+"']").append(html);  
 
                                     }).fail(function(e){
@@ -180,7 +180,7 @@ require([
                 );
 
             } else{
-                var html = "<td class='sp-list-cell sp-list-cell-time' width='100px;' >  " + localStorage.getItem(tracks[i].uri) + "</td>";
+                var html = "<td class='sp-list-cell sp-list-cell-time' width='100px;' >  " + parseFloat(localStorage.getItem(tracks[i].uri)).toFixed(2) + "</td>";
                 $("tr[data-uri='"+tracks[i].uri+"']").append(html);    
                 console.log($("tr[data-uri='"+tracks[i].uri+"']"));
             }
